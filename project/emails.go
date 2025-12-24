@@ -7,7 +7,6 @@ import (
 	"net/http"
 
 	"github.com/go-mail/mail"
-
 )
 
 var theClientID string
@@ -18,7 +17,7 @@ var myemailAddress string
 var myemailBKPAddress string
 var myEmailPassword string
 
-//Declare DataType from Ajax 11
+// Declare DataType from Ajax 11
 type UserEmail struct {
 	FName     string `json:"FName"`
 	LName     string `json:"LName"`
@@ -32,7 +31,7 @@ type UserEmail struct {
 	PhoneNum3 string `json:"PhoneNum3"`
 }
 
-//Used to handle emails submitted to us
+// Used to handle emails submitted to us
 func emailSubmit(w http.ResponseWriter, r *http.Request) {
 	if r.Method == http.MethodPost {
 		fmt.Println("DEBUG: We are in emailSubmit.")
