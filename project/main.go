@@ -165,4 +165,5 @@ func getCredsYaml() {
 	myemailAddress = config.Email.MY_EMAIL_ADDRESS
 	myemailBKPAddress = config.Email.MY_BACKUP_EMAIL
 	myEmailPassword = config.Email.MY_EMAIL_PASSWORD
+
 }
