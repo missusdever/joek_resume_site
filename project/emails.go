@@ -18,7 +18,7 @@ var myemailAddress string
 var myemailBKPAddress string
 var myEmailPassword string
 
-//Declare DataType from Ajax
+//Declare DataType from Ajax 11
 type UserEmail struct {
 	FName     string `json:"FName"`
 	LName     string `json:"LName"`
