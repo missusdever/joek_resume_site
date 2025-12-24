@@ -221,8 +221,9 @@ color: white; font-size: 3rem;}
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
-    width: 50%;
+    width: 15%;
     box-sizing: border-box;
+    background-color: blue;
 }
 
 .resumeInfo {
